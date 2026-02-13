@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qwanzo</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f5f5f5;
+      color: #111;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #4f46e5;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: bold;
+      transition: opacity 0.2s;
+    }
+
+    nav a:hover {
+      opacity: 0.7;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 5rem 2rem;
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      color: white;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 3rem 2rem;
+    }
+
+    .feature {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      flex: 1 1 250px;
+      max-width: 300px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .feature:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #111;
+      color: white;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Qwanzo</h1>
+    <nav>
+      <a href="#app">App</a>
+      <a href="#search">Search</a>
+      <a href="#labs">Labs</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to Qwanzo</h2>
+    <p>Your AI chat, search engine, and web apps all in one place. Explore, experiment, and enjoy the future of web intelligence.</p>
+  </section>
+
+  <section class="features">
+    <div class="feature" id="app">
+      <h3>AI Chat</h3>
+      <p>Interact with our AI-powered chat system and get answers instantly.</p>
+    </div>
+    <div class="feature" id="search">
+      <h3>Search Engine</h3>
+      <p>Quick, smart, and focused search to help you find what you need.</p>
+    </div>
+    <div class="feature" id="labs">
+      <h3>Labs</h3>
+      <p>Experiment with our latest AI and web tools in the Labs section.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2026 Qwanzo. All rights reserved.
+  </footer>
+
+</body>
+</html>
